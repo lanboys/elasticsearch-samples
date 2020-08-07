@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: error
+    com:
+      bing:
+        lan: debug
+    org:
+      apache:
+        http:
+          wire: debug
+
+
+
+spring:
+  elasticsearch:
+    rest:
+      uris: http://14.18.57.189:9200
